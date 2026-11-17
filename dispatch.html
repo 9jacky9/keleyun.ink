@@ -1,78 +1,114 @@
 <!DOCTYPE html>
+
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>使用指南与选购笔记 - 可乐云</title>
-  <meta name="description" content="可乐云使用指南：机场选购清单、AI 工具打不开的排查、多设备设置教程、SSH 与远程桌面优化、晚高峰变慢的应对方法。">
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>使用指南与选购笔记 - 可乐云</title>
+<meta content="可乐云使用指南：机场选购清单、AI 工具打不开的排查、多设备设置教程、SSH 与远程桌面优化、晚高峰变慢的应对方法。" name="description"/>
+<link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-
-  <div class="quarry-notice">
-    <strong>使用提示：</strong>新用户可先领取免费体验，在晚高峰时段实际测试后再选择套餐
+<div class="quarry-notice">
+<strong>使用提示：</strong>新用户可先领取免费体验，在晚高峰时段实际测试后再选择套餐
   </div>
-
-  <header class="chisel-masthead">
-    <div class="chisel-nav-inner">
-      <a href="index.html" class="brand-stone">
-        <svg width="32" height="32" viewBox="0 0 44 44" fill="none">
-          <rect x="2" y="2" width="40" height="40" rx="4" fill="#faf7f2" stroke="#c2410c" stroke-width="2.5"/>
-          <path d="M12 12H32V32H12Z" fill="#c2410c"/>
-          <circle cx="22" cy="22" r="3" fill="#faf7f2"/>
-        </svg>
-        <span class="brand-stone-text">可乐云 <span>· 企业中枢</span></span>
-      </a>
-
-        <nav class="chisel-nav-links" aria-label="企业中枢导航">
-          <a href="index.html#stability" class="nav-stone-item">连接稳定性</a>
-          <a href="index.html#enterprise-ai" class="nav-stone-item">算力与中继</a>
-          <a href="index.html#pricing" class="nav-stone-item">专网定价</a>
-          <a href="index.html#faq" class="nav-stone-item">合规释疑</a>
-          <a href="index.html#testimonials" class="nav-stone-item">团队见证</a>
-          <a href="dispatch.html" class="nav-stone-item nav-stone-highlight" style="color: var(--copper-terracotta);">使用指南</a>
-        </nav>
-
-        <div class="chisel-nav-actions">
-          <a href="https://ww012.twilightaff.com/#/?code=A56DH1Af" target="_blank" rel="nofollow" class="btn-stone-nav">企业控制台</a>
-        </div>
+<header class="chisel-masthead">
+<div class="chisel-nav-inner">
+<a class="brand-stone" href="index.html">
+<svg fill="none" height="32" viewbox="0 0 44 44" width="32">
+<rect fill="#faf7f2" height="40" rx="4" stroke="#c2410c" stroke-width="2.5" width="40" x="2" y="2"></rect>
+<path d="M12 12H32V32H12Z" fill="#c2410c"></path>
+<circle cx="22" cy="22" fill="#faf7f2" r="3"></circle>
+</svg>
+<span class="brand-stone-text">可乐云 <span>· 企业中枢</span></span>
+</a>
+<nav aria-label="企业中枢导航" class="chisel-nav-links">
+<a class="nav-stone-item" href="index.html#stability">连接稳定性</a>
+<a class="nav-stone-item" href="index.html#enterprise-ai">算力与中继</a>
+<a class="nav-stone-item" href="index.html#pricing">专网定价</a>
+<a class="nav-stone-item" href="index.html#faq">合规释疑</a>
+<a class="nav-stone-item" href="index.html#testimonials">团队见证</a>
+<a class="nav-stone-item nav-stone-highlight" href="dispatch.html" style="color: var(--copper-terracotta);">使用指南</a>
+</nav>
+<div class="chisel-nav-actions">
+<a class="btn-stone-nav" href="https://ww012.twilightaff.com/#/?code=A56DH1Af" rel="nofollow" target="_blank">企业控制台</a>
+</div>
+</div>
+</header>
+<main class="chisel-hub-wrapper">
+<div class="chisel-hub-header">
+<h1>使用指南与选购笔记</h1>
+<p>从选购、设置到排查，整理新手最常遇到的网络加速问题与解决办法</p>
+</div>
+<div class="chisel-dispatch-grid">
+<!-- 专栏 1: 可乐云企业中枢实测白皮书 (含首页内链) -->
+<article class="dispatch-card">
+<div>
+<div class="dispatch-badge">实用教程 · 多线路备用机场方案比较</div>
+<h2 class="dispatch-card-title">
+<a href="hybrid-multi-carrier-peering-strategy.html">双线路容灾为什么切换后仍打不开：健康检查、会话与恢复时间的验收</a>
+</h2>
+<p class="dispatch-card-desc">把探测可达、线路切换、应用恢复分开设计，在受控窗口用明确条件验证故障与恢复，识别两条线路的共同依赖。</p>
+</div>
+<a class="dispatch-read-link" href="hybrid-multi-carrier-peering-strategy.html">阅读完整指南 →</a>
+</article>
+<article class="dispatch-card">
+<div>
+<div class="dispatch-badge">品牌选用指南</div>
+<h2 class="dispatch-card-title">
+<a href="enterprise-cloud-backbone-audit.html">可乐云企业场景如何评估：用采购问答与交付证据核对服务边界</a>
+</h2>
+<p class="dispatch-card-desc">围绕采购前的问题清单与证据归档，核对可乐云机场的任务适配、支持责任、费用和退出条件，不把宣传架构当作已完成审计。</p>
+</div>
+<a class="dispatch-read-link" href="enterprise-cloud-backbone-audit.html">阅读完整指南 →</a>
+</article><article class="dispatch-card">
+<div>
+<div class="dispatch-badge">实用教程 · AI接口机场线路比较</div>
+<h2 class="dispatch-card-title">
+<a href="ai-cluster-api-concurrency-stability.html">大模型API并发越高越慢怎么办：排队、限流与重试预算的诊断步骤</a>
+</h2>
+<p class="dispatch-card-desc">把请求排队、建立连接、服务生成与结果接收分开记录，在获准测试环境调整并发和重试，避免用带宽掩盖限额或队列问题。</p>
+</div>
+<a class="dispatch-read-link" href="ai-cluster-api-concurrency-stability.html">阅读完整指南 →</a>
+</article><article class="dispatch-card">
+<div>
+<div class="dispatch-badge">实用教程 · 远程团队网络接入比较</div>
+<h2 class="dispatch-card-title">
+<a href="corporate-zero-trust-network-defense.html">远程团队怎样落实零信任思路：从资源清单到一次最小权限验收</a>
+</h2>
+<p class="dispatch-card-desc">以一个应用的小范围试点解释身份、设备、资源权限和撤销验证，避免把换出口、加密隧道或单次登录当成完整零信任。</p>
+</div>
+<a class="dispatch-read-link" href="corporate-zero-trust-network-defense.html">阅读完整指南 →</a>
+</article><article class="dispatch-card">
+<div>
+<div class="dispatch-badge">实用教程 · 电商团队机场服务比较</div>
+<h2 class="dispatch-card-title">
+<a href="cross-border-ecommerce-store-safety.html">跨境店铺换人运营怎样交接：账号、设备会话与应用权限的收回清单</a>
+</h2>
+<p class="dispatch-card-desc">以员工转岗或协作结束为场景，整理店铺身份、设备、共享资料和应用授权，使用Shopify官方用户管理入口作例子。</p>
+</div>
+<a class="dispatch-read-link" href="cross-border-ecommerce-store-safety.html">阅读完整指南 →</a>
+</article><article class="dispatch-card">
+<div>
+<div class="dispatch-badge">实用教程 · 远程运维机场线路选择</div>
+<h2 class="dispatch-card-title">
+<a href="global-cloud-console-rdp-acceleration.html">远程桌面输入慢、复制失败怎么查：显示负载、重定向与服务器状态分开测</a>
+</h2>
+<p class="dispatch-card-desc">以获授权的Windows远程桌面为例，区分控制台、画面传输、剪贴板和远端应用，提供低影响的对照步骤与恢复核验。</p>
+</div>
+<a class="dispatch-read-link" href="global-cloud-console-rdp-acceleration.html">阅读完整指南 →</a>
+</article></div>
+</main>
+<footer class="chisel-footer">
+<div class="chisel-footer-links">
+<a href="sitemap.html">网站地图</a>
+<a href="about.html">关于我们</a>
+<a href="terms.html">服务条款</a>
+<a href="privacy.html">隐私政策</a>
+</div>
+<div class="chisel-footer-copy">
+      © 2026 可乐云企业中枢 Keleyun Enterprise. All Rights Reserved. 磐石级高可用企业网络专线。
     </div>
-  </header>
-
-  <main class="chisel-hub-wrapper">
-    <div class="chisel-hub-header">
-      <h1>使用指南与选购笔记</h1>
-      <p>从选购、设置到排查，整理新手最常遇到的网络加速问题与解决办法</p>
-    </div>
-
-    <div class="chisel-dispatch-grid">
-      <!-- 专栏 1: 可乐云企业中枢实测白皮书 (含首页内链) -->
-      <article class="dispatch-card">
-        <div>
-          <div class="dispatch-badge">网络知识 · 速度调优</div>
-          <h2 class="dispatch-card-title">
-            <a href="hybrid-multi-carrier-peering-strategy.html">晚高峰网速变慢怎么办：线路、节点与分流规则如何影响体验</a>
-          </h2>
-          <p class="dispatch-card-desc">
-            晚高峰变慢通常来自入口线路拥堵或节点负载，换入口、换节点和优化规则往往比换套餐更有效。
-          </p>
-        </div>
-        <a href="hybrid-multi-carrier-peering-strategy.html" class="dispatch-read-link">查阅容灾自愈全景解析 &rarr;</a>
-      </article>
-    </div>
-  </main>
-
-  <footer class="chisel-footer">
-    <div class="chisel-footer-links">
-      <a href="sitemap.html">网站地图</a>
-      <a href="about.html">关于我们</a>
-      <a href="terms.html">服务条款</a>
-      <a href="privacy.html">隐私政策</a>
-    </div>
-    <div class="chisel-footer-copy">
-      &copy; 2026 可乐云企业中枢 Keleyun Enterprise. All Rights Reserved. 磐石级高可用企业网络专线。
-    </div>
-  </footer>
-
+</footer>
 </body>
 </html>
